@@ -216,3 +216,9 @@ nav {
     align-items: center;
     margin: 35px;
 }
+.about-luis img {
+    display: flex;
+    width: 320px;
+    height: 350px;
+    border-radius: 35px;
+}
