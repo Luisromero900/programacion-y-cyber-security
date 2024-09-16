@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,27 +27,31 @@ nav{
     justify-content: space-between;
 
 }
-.containerFooter{
+
+.containerFooter {
     display: flex;
     align-items: center;
     margin: 90px;
     padding-top: 19px;
     justify-content: space-around;
 }
-.disclaimer{
+
+.disclaimer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 2%;
     padding-left: 24px;
 }
+
 .title {
     display: flex;
     justify-content: space-between;
     font-size: 25px;
     color: #00ff00;
 }
-.navigation{
+
+.navigation {
     display: flex;
     background-color: #111;
     align-items: center;
@@ -75,7 +80,10 @@ nav{
     font-size: 1.2em;
 }
 
-.home-section, .about-section,.courses-section, .contact-section  {
+.home-section,
+.about-section,
+.courses-section,
+.contact-section {
     position: relative;
     text-align: center;
     height: 150vh;
@@ -85,7 +93,7 @@ nav{
     background-repeat: no-repeat;
 }
 
-.intro-text{
+.intro-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -96,25 +104,37 @@ nav{
 /* Estilo para el texto verde con recuadro negro */
 .highlighted-text {
     color: #00ff00;
-    background-color: #000; /* Fondo negro para destacar */
-    padding: 5px 10px; /* Añadir relleno alrededor del texto */
-    border: 2px solid #89de0a; /* Borde verde para resaltar */
+    background-color: #000;
+    /* Fondo negro para destacar */
+    padding: 5px 10px;
+    /* Añadir relleno alrededor del texto */
+    border: 2px solid #89de0a;
+    /* Borde verde para resaltar */
     border-radius: 23px;
-    display: inline-block; /* Para que el texto tenga el efecto de recuadro */
-    font-size: 1.2em; /* Tamaño del texto */
+    display: inline-block;
+    /* Para que el texto tenga el efecto de recuadro */
+    font-size: 1.2em;
+    /* Tamaño del texto */
 }
-.highlighted-text1{
+
+.highlighted-text1 {
     color: #00ff00;
-    background-color: #000; /* Fondo negro para destacar */
-    padding: 5px 10px; /* Añadir relleno alrededor del texto */
-    border: 2px solid #89de0a; /* Borde verde para resaltar */
+    background-color: #000;
+    /* Fondo negro para destacar */
+    padding: 5px 10px;
+    /* Añadir relleno alrededor del texto */
+    border: 2px solid #89de0a;
+    /* Borde verde para resaltar */
     border-radius: 23px;
-    display: inline-block; /* Para que el texto tenga el efecto de recuadro */
-    font-size: 1.2em; /* Tamaño del texto */
+    display: inline-block;
+    /* Para que el texto tenga el efecto de recuadro */
+    font-size: 1.2em;
+    /* Tamaño del texto */
 }
-.highlighted-text1:hover{
+
+.highlighted-text1:hover {
     background-color: #afc9d9;
-    
+
 }
 
 /* Estilo del botón con hover */
@@ -134,7 +154,10 @@ nav{
     border-color: #00cc00;
 }
 
-.about-section, .courses-section, .contact-section, .testimonials-section {
+.about-section,
+.courses-section,
+.contact-section,
+.testimonials-section {
     padding: 50px 20px;
 }
 
@@ -144,3 +167,58 @@ nav{
     overflow-x: scroll;
 }
 
+.contenedorprincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px;
+    margin-bottom: 1px;
+    /* position: relative; */
+}
+
+.about-gonzalo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+    /* margin-left: 12px; */
+    padding: 12px;
+}
+
+.about-gonzalo p {
+    display: flex;
+    align-items: center;
+    margin: 35px;
+}
+
+.about-gonzalo img {
+    display: flex;
+    width: 300px;
+    border-radius: 35px;
+}
+
+.about-luis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    margin-top: 20px;
+}
+
+.about-luis p {
+    display: flex;
+    align-items: center;
+    margin: 35px;
+}
+.about-luis img {
+    display: flex;
+    width: 320px;
+    height: 350px;
+    border-radius: 35px;
+}
