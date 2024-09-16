@@ -16,7 +16,6 @@ body {
 .navbar {
     background-color: #081a08;
     color: rgb(155, 155, 220);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,15 +79,17 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    background-color: rgba(60, 154, 255, 0.652);
-    transition: rgb(7, 46, 201);
+    background-color:rgb(155, 155, 220); 
+    transition: rgb(192, 199, 226); 
     color: rgb(62, 38, 2);
     border-radius: 15px;
     /* background-color: powderblue; */
    
 }
 .cursosDeCibersecurity a:hover{
-    background-color: gold;
+    background-color: #00ff00;
+    color: #2a0de7; 
+
 }
 
 .title h1 {
