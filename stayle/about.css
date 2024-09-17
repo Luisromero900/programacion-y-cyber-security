@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Share Tech Mono', monospace;
@@ -22,7 +22,7 @@ body{
     margin: 2px;
 
 
-} */
+}
 
 .about-gonzalo p{
     display: flex;
