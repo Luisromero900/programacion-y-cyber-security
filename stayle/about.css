@@ -58,5 +58,15 @@ body{
     width: 300px;
     border-radius:35px;
 
+}
+.navigation {
+    display: flex;
+    background-color: #111;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 271px;
+    margin-top: -20px;
+    border: 1px solid;
+    border-radius: 22px;
 
 }
