@@ -1,21 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Share Tech Mono', monospace;
 }
-body{
+
+body {
     background-color: #000;
     color: #00ff00;
 }
+
 .about-title {
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
-
+    background-color: #000;
+    color: #00ff00;
 
 }
 
-.about-gonzalo{
+.sobreNosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    padding: 50px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -45px;
+    cursor: pointer;
+}
+
+.inicio ul li {
+    list-style: none;
+}
+.inicio a{
+    text-decoration: none;
+    
+}
+
+
+.about-gonzalo {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,19 +52,20 @@ body{
 
 }
 
-.about-gonzalo p{
+.about-gonzalo p {
     display: flex;
     align-items: center;
     margin: 15px;
 }
-.about-gonzalo img{
+
+.about-gonzalo img {
     display: flex;
     width: 300px;
-    border-radius:35px;
+    border-radius: 35px;
 
 }
 
-.about-luis{
+.about-luis {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,19 +76,25 @@ body{
 
 }
 
-.about-luis p{
+.about-luis p {
     display: flex;
     align-items: center;
     margin: 15px;
 }
 
-.about-luis img{
+.about-luis img {
     display: flex;
     width: 300px;
-    border-radius:35px;
+    border-radius: 35px;
 
 }
-.navigation {
+
+/* nav{
+    display: flex;
+    align-items: center;
+
+} */
+    /* .navigation {
     display: flex;
     background-color: #111;
     align-items: center;
@@ -69,4 +104,4 @@ body{
     border: 1px solid;
     border-radius: 22px;
 
-}
+} */
